@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "I am leaving"],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Goodbye! Have a great day.",
+        "Take care! Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!", "I appreciate it"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What are you?", "Who are you?", "What can you do?", "Tell me about yourself"],
+      "responses": [
+        "I am a simple NLP chatbot.",
+        "I'm an AI assistant built using Python and NLTK to answer basic questions."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me", "I need assistance", "Can you help me?", "What should I do?"],
+      "responses": [
+        "I'm here to help! Try asking me basic questions about who I am.",
+        "Sure, I can try to help you. What's on your mind?"
+      ]
+    }
+  ]
+}
